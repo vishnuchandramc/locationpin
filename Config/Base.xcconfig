@@ -1,0 +1,18 @@
+// Shared build settings for every target.
+// Put your Apple Developer Team ID in Config/Local.xcconfig (gitignored):
+//   DEVELOPMENT_TEAM = ABCDE12345
+#include? "Local.xcconfig"
+
+BUNDLE_ID_PREFIX = com.vishnuchandramc
+APP_GROUP_ID = group.$(BUNDLE_ID_PREFIX).pinhere
+ICLOUD_CONTAINER_ID = iCloud.$(BUNDLE_ID_PREFIX).pinhere
+
+MARKETING_VERSION = 0.1.0
+CURRENT_PROJECT_VERSION = 1
+
+SWIFT_VERSION = 6.0
+SWIFT_STRICT_CONCURRENCY = complete
+IPHONEOS_DEPLOYMENT_TARGET = 26.0
+WATCHOS_DEPLOYMENT_TARGET = 26.0
+CODE_SIGN_STYLE = Automatic
+ENABLE_USER_SCRIPT_SANDBOXING = YES

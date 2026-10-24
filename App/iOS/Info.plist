@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Pin Here</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>NSCameraUsageDescription</key>
+	<string>To attach a photo to this pin.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>To tap you when you're back, even with the app closed and your phone at home.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>To save where you're standing.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>To turn what you say into the note.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>To turn what you say into the note.</string>
+	<key>PinHereAppGroup</key>
+	<string>$(APP_GROUP_ID)</string>
+	<key>PinHereICloudContainer</key>
+	<string>$(ICLOUD_CONTAINER_ID)</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchScreen</key>
+	<dict/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+</dict>
+</plist>
